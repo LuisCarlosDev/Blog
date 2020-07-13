@@ -5,7 +5,10 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "build": "gatsby build",
+    "server": "gatsby server",
     "start": "yarn develop"
+
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.2.0",
