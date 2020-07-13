@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "build": "gatsby build",
+    "server": "gatsby server",
     "start": "yarn develop"
   },
   "dependencies": {
