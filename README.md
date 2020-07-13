@@ -8,7 +8,6 @@ This app features all the latest tools and practices in web development!
 - ⚛ **React** — A library to build user interfaces
 - 💅 **CSS** — styled-components
 - 💖 **Lint** — ESlint/Prettier/Editor Config
-- 📝 **Netlify CMS** — Simple CMS for posts
 
 ## Getting started
 
