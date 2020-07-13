@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier",
+        "prettier/react"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import",
+        "prettier",
+        "react-hooks"
+    ],
+    "rules": {
+      "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+      "react/prefer-stateless-function": "off",
+      "global-require": "off",
+      "camelcase": "off",
+      "prettier/prettier": "error",
+      "react/jsx-one-expression-per-line": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/prop-types": "off",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "no-unused-expressions": "off",
+      "import/prefer-default-export": "off",
+      "import/no-duplicates": "off",
+      "jsx-a11y/accessible-emoji": "off",
+      "react/forbid-prop-types": "off"
+    }
+}
