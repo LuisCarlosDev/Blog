@@ -2,8 +2,9 @@ const config = require('./data/config');
 
 module.exports = {
   siteMetadata: {
-    title: config.siteTitle,
-    description: config.siteDescription,
+    title: '<Luis Carlos/>',
+    description: 'Site pessoal de um desenvolvedor, que ama o que faz!',
+    siteUrl: 'https://luiscarlossilva.me',
   },
   plugins: [
     'gatsby-plugin-catch-links',
@@ -46,7 +47,7 @@ module.exports = {
               siteMetadata {
                 title
                 description
-                siteUrl
+
               }
             }
           }

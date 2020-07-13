@@ -3,6 +3,7 @@ const config = {
   description: 'Site pessoal de um desenvolvedor, que ama o que faz!',
   siteTitle: 'Desenvolvedor Front End',
   siteTitleShort: 'Luis Carlos',
+  siteUrl: 'luiscarlossilva.me',
   siteRss: '/rss.xml',
   disqusShortname: 'blog-do-luis-carlos',
   themeColor: '#00E2BC',

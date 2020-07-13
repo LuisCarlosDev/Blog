@@ -69,6 +69,7 @@ exports.createPages = ({ graphql, actions }) => {
         `,
       ).then(result => {
         if (result.errors) {
+          // eslint-disable-next-line no-console
           console.log(result.errors);
           reject(result.errors);
         }
@@ -103,6 +104,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         /* Cria a página de posts */
         const posts = items.filter(item => item.node.fields.source === 'posts');
+        // eslint-disable-next-line no-unused-vars
         posts.forEach(({ node }, index) => {
           const { slug, source } = node.fields;
           createPage({
